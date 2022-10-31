@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@chainlink/contracts": "^0.5.1",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "fs-extra": "^10.1.0",
+    "solc": "^0.8.17"
+  },
+  "scripts": {
+    "compile": "yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . Counter.sol"
+  }
+}
